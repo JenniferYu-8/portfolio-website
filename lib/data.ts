@@ -7,6 +7,7 @@ import emotionDetection from "@/public/emotion-detection.png";
 import vsLingoBingo from "@/public/vs-lingo-bingo.png";
 import portfolio from "@/public/portfolio.png";
 import UWaterloo from "@/icons/uwaterloo";
+import Miovision from "@/icons/miovision";
 import BxB from "@/icons/bxb";
 import Canmun from "@/icons/canmun";
 import YRHacks from "@/icons/yrhacks";
@@ -49,12 +50,20 @@ export const experiencesData = [
     date: "Sept. 2024 - Present",
   },
   {
+    title: "Software Developer | Miovision",
+    location: "Kitchener, ON",
+    description:
+      "● Advanced the Traffic Engineering Transformation Project in MioOne—a centralized platform serving 7,000+ customers in 68 countries to improve traffic safety and efficiency.",
+    icon: React.createElement(Miovision),
+    date: "May 2025 - Aug. 2025",
+  },
+  {
     title: "Software Engineer Team Lead | Bit by Bit Coding",
     location: "Portland, OR",
     description:
-      "● Develop interactive demos with DHTML that have taught 1000+ middle schoolers to code.\n● Provide my team members with feedback on UI/UX design and code quality.",
+      "● Developed interactive demos with DHTML that have taught 1000+ middle schoolers to code.\n● Provided my team members with feedback on UI/UX design and code quality.",
     icon: React.createElement(BxB),
-    date: "July 2021 - Present",
+    date: "July 2021 - April 2025",
   },
   {
     title: "USG of Technology | CANMUN",
@@ -145,6 +154,7 @@ export const projectsData = [
 export const skillsData = [
   "Python",
   "C",
+  "Kotlin",
   "Java",
   "HTML",
   "CSS",
