@@ -35,15 +35,13 @@ export default function Intro() {
             animate={{ opacity: 1, y: 0 }}
         >
             Hi! I'm <span className="font-bold">Jennifer Yu</span>, a <span className="font-bold">Software Engineering</span> student at the <span className="font-bold">University of Waterloo. </span>
-            I’m particularly interested in <span className="font-bold">machine learning</span> and <span className="font-bold">front-end development</span>.
+            I’m particularly interested in <span className="font-bold">machine learning</span> and <span className="font-bold">full-stack development</span>.
         </motion.p>
         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
         >
-            <a href="/resume-jennifer-yu.pdf" target="_blank" className="bg-gray-900 text-white px-9 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition cursor-pointer">Resume <BiLinkExternal className="opacity-80"/></a>
-
             <div className="flex gap-2"> 
                 <a href="https://www.linkedin.com/in/jennifer-yu-on/" target="_blank" className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full borderBlack focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60 duration-500"><BsLinkedin /></a>
                 <a href="https://github.com/JenniferYu-8" target="_blank" className="bg-white p-[0.88rem] text-gray-700 flex items-center gap-2 text-[1.3rem] rounded-full borderBlack focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60 duration-500"><FaGithubSquare /></a>

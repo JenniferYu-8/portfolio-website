@@ -7,6 +7,7 @@ import emotionDetection from "@/public/emotion-detection.png";
 import vsLingoBingo from "@/public/vs-lingo-bingo.png";
 import portfolio from "@/public/portfolio.png";
 import UWaterloo from "@/icons/uwaterloo";
+import Stripe from "@/icons/stripe";
 import Miovision from "@/icons/miovision";
 import BxB from "@/icons/bxb";
 import Canmun from "@/icons/canmun";
@@ -45,9 +46,17 @@ export const experiencesData = [
   {
     title: "Software Engineering | University of Waterloo",
     location: "Waterloo, ON",
-    description: "● Website Director @ Waterloo Engineering Society\n● Core Member @ Wat.ai\n● Class Representative @ SE Society",
+    description: "● Organizer @ Hack the North\n● AI/ML Researcher @ Wat.ai\n● VP Finance @ SE Society\n● Website Director @ Waterloo Engineering Society\n",
     icon: React.createElement(UWaterloo),
     date: "Sept. 2024 - Present",
+  },
+  {
+    title: "Software Engineering Intern | Stripe",
+    location: "South San Francisco, CA",
+    description:
+      "● Modernized the Payment Details page (40M+ monthly views) and shipped high priority Stripe Sessions deliverables to enable multiprocessor support for Orchestration.",
+    icon: React.createElement(Stripe),
+    date: "Jan. 2026 - May 2026",
   },
   {
     title: "Software Developer | Miovision",
